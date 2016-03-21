@@ -1,0 +1,22 @@
+%getIconsPath{
+  display: inline-block;
+  background-image: sprite-url($icons);
+  background-repeat: no-repeat;
+}
+@mixin getIcon($iconName, $isHover: false){
+
+  $iconWidth: image-width(sprite-file($icons, $iconName));
+  $iconHeight: image-height(sprite-file($icons, $iconName));
+  $posY: nth(sprite-position($icons, $iconName), 2);
+  @if $posY != 0{
+    background-position: 0 $posY;
+  } @else{
+    background-position: 0 0;
+  }
+  @if $isHover == false{
+    width: $iconWidth;
+    height: $iconHeight;
+    @extend %getIconsPath;
+  }
+  
+}

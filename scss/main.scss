@@ -1,0 +1,24 @@
+@charset "utf-8";
+$icons: sprite-map("icons/*.png", $layout: horizontal, $spacing: 1px);
+/**/
+
+@import "compass/utilities/sprites";
+// helpers/
+@import '_sprites';
+
+
+.icon{
+	vertical-align: middle; 
+}
+.icon-home{
+	@include getIcon('home');
+}
+.icon-back{
+	@include getIcon('back');
+}
+.icon-download{
+	@include getIcon('download');
+}
+.icon-vcode{
+	@include getIcon('vcode');
+}
