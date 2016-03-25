@@ -10,9 +10,9 @@ $icons: sprite-map("icons/*.png", $layout: horizontal, $spacing: 1px);
 .icon{
 	vertical-align: middle; 
 }
-.logo{
-	@include getIcon('logo');
-}
+// .logo{
+// 	@include getIcon('logo');
+// }
 .play-btn{
 	@include getIcon('play-btn');
 }
