@@ -1,0 +1,152 @@
+html, body, input, ul, li, dl, dd, img {
+    margin: 0;
+    padding: 0
+}
+ul, li, dl, dd, ol {
+    list-style: none
+}
+a {
+    text-decoration: none
+}
+aside .serverBox ul li a span {
+    float: left;
+    _display: inline
+}
+#video, #video .close, aside .playWrap #play, aside .videoBox, aside .serverBox, aside .serverBox ul li a span, aside .serverBox ul li a:hover span, aside .serverBox #allServer, aside .socialBox .fb-like-box {
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *zoom: 1;
+    *display: inline
+}
+.icons-sprite, #video .close, aside .playWrap #play, aside .serverBox ul li a span, aside .serverBox ul li a:hover span, aside .serverBox #allServer {
+    background-image: url('/images/games/fs/official/aside/icons-sa3f89e904a.png');
+    background-repeat: no-repeat
+}
+a {
+    cursor: pointer
+}
+#video {
+    z-index: 10000;
+    display: none;
+    width: 694px;
+    height: 340px;
+    padding-left: 0;
+    background: url('/images/games/fs/official/aside/maskSlideBox.png?1444794719') no-repeat;
+    text-align: left
+}
+#video .close {
+    width: 42px;
+    height: 42px;
+    background-position: 0 -126px;
+    position: absolute;
+    top: 15px;
+    right: -30px;
+    cursor: pointer
+}
+#video .close:hover, #video .close.close-hover {
+    background-position: 0 -168px
+}
+#video .videoCon {
+    border: 1px solid #63584d;
+    width: 643px;
+    height: 290px;
+    position: relative;
+    left: 26px;
+    top: 24px
+}
+aside {
+    text-align: center;
+    margin-right: -23px;
+    margin-bottom: 50px
+}
+aside .playWrap {
+    height: 157px;
+    position: relative;
+    margin-top: 242px;
+    margin-bottom: 5px
+}
+aside .playWrap #play {
+    width: 342px;
+    height: 157px;
+    background-position: 0 -368px;
+    margin-left: -2px
+}
+aside .playWrap #play:hover, aside .playWrap #play.play-hover {
+    background-position: 0 -525px
+}
+aside .videoBox {
+    width: 355px;
+    height: 181px;
+    padding-left: 0;
+    background: url('/images/games/fs/official/aside/videoBox.png?1445331270') no-repeat;
+    cursor: pointer
+}
+aside .videoBox iframe {
+    margin-top: 11px
+}
+aside .serverBox {
+    width: 355px;
+    height: 302px;
+    padding-left: 0;
+    background: url('/images/games/fs/official/aside/serverBox.png?1444794723') no-repeat;
+    text-align: center
+}
+aside .serverBox ul {
+    margin-top: 77px;
+    height: 117px
+}
+aside .serverBox ul li a {
+    color: #7c9fb1;
+    line-height: 39px;
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    width: 289px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px
+}
+aside .serverBox ul li a span {
+    width: 14px;
+    height: 14px;
+    background-position: 0 -98px;
+    margin-top: 13px;
+    margin-left: 22px
+}
+aside .serverBox ul li a span:hover, aside .serverBox ul li a span.circle-hover {
+    background-position: 0 -112px
+}
+aside .serverBox ul li a:hover {
+    background-color: #222627;
+    color: #e4d2ae;
+    text-decoration-line: underline
+}
+aside .serverBox ul li a:hover span {
+    width: 14px;
+    height: 14px;
+    background-position: 0 -112px
+}
+aside .serverBox #allServer {
+    width: 261px;
+    height: 49px;
+    line-height: 49px;
+    background-position: 0 0;
+    margin-top: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px
+}
+aside .serverBox #allServer:hover, aside .serverBox #allServer.all_server-hover {
+    background-position: 0 -49px
+}
+aside .socialBox .fb-like-box {
+    width: 355px;
+    height: 315px;
+    padding-left: 0;
+    padding-top: 34px;
+    background: url('/images/games/fs/official/aside/socialBox.png?1444794721') no-repeat
+}
