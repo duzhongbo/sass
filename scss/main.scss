@@ -16,3 +16,13 @@ $icons: sprite-map("icons/*.png", $layout: horizontal, $spacing: 1px);
 .play-btn{
 	@include getIcon('play-btn');
 }
+/* 设置弹窗样式 多组 */
+@mixin pops($sQuery,$w,$h,$bg,$num){
+    @for $i from 1 through $num{
+      #{$sQuery}#{$i} {
+        width: #{$w}px;
+        height: #{nth($h,$i)}px;
+        background: url(#{$imgurl}/#{$bg}#{$i}.png) no-repeat center top;
+      }
+    }
+}
